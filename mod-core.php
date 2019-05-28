@@ -6,11 +6,11 @@
  * Defines common variables, & inits plugin. 
  *
  * TODO
-	-- Create admin settings GUI to manage desired features
-	-- Maintenance: Consolidate like items to manage specific features based on selected options
-	-- Add missing SEO and accessibility meta for section 508, WCAG compliance
-	-- Start translation file
-	-- Find a CSP solution that won't bork wp nonsense
+* 	-- Create admin settings GUI to manage desired features
+* 	-- Maintenance: Consolidate like items to manage specific features based on selected options
+* 	-- Add missing SEO and accessibility meta for section 508, WCAG compliance
+* 	-- Start translation file
+* 	-- Find a CSP solution that won't bork wp nonsense
  *
  * @link              https://encipherdesign.com/
  * @since             1.2.9
@@ -30,8 +30,8 @@
 */
 
 /**
-	Plugin definitions.
-	Define version number, theme name, directory path and url.
+* 	Plugin definitions.
+* 	Define version number, theme name, directory path and url.
 */
 define( 'MOD_CORE_VERSION', '1.2.9' );
 define( 'MOD_CORE_THM', 'mod-core' );
@@ -41,10 +41,9 @@ define( 'MOD_CORE_URL', plugin_dir_url( __FILE__ ) );
 define( 'MOD_CORE_DOMAIN', get_bloginfo( 'site_url' ) );
 
 /**
-
-	Defines directory for Bad Bot Ban Script.
-	No beginning or ending forward slashes.
-	@see class-mod-core-security.php
+* 	Defines directory for Bad Bot Ban Script.
+* 	No beginning or ending forward slashes.
+* 	@see class-mod-core-security.php
 */ 
 define( 'MOD_CORE_BADBOTS_DIR', 'crush' );
 

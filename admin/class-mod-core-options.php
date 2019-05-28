@@ -17,7 +17,7 @@ class Mod_Options extends Mod_Core_Admin {
 
 	public function __construct() {
 	
-		add_action( 'admin_menu', array( 'Mod_Options', 'admin_menu' ) );
+		//add_action( 'admin_menu', array( 'Mod_Options', 'set_admin_menu' ) );
 	
 	}
 	
